@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>XYZ Restaurant</h1>
+    <p style="text-align: center;">Select a category to view the items</p>
+
+    <!-- Category selector -->
+    <div class="category-selector">
+        <button onclick="showCategory('starters')">Starters</button>
+        <button onclick="showCategory('veg')">Veg</button>
+        <button onclick="showCategory('non-veg')">Non-Veg</button>
+        <button onclick="showCategory('desserts')">Desserts</button>
+    </div>
+
+
+    <!-- Starters List -->
+    <div class="menu-list" id="starters">
+        <h3>Starters</h3>
+        <table>
+            <tr>
+                <td>Spring Rolls</td>
+                <td>₹120</td>
+                <td><input type="number" class="quantity" id="starter1" min="0" data-price="120" value="0"></td>
+            </tr>
+            <tr>
+                <td>Soup</td>
+                <td>₹100</td>
+                <td><input type="number" class="quantity" id="starter2" min="0" data-price="100" value="0"></td>
+            </tr>
+            <tr>
+                <td>Garlic Bread</td>
+                <td>₹80</td>
+                <td><input type="number" class="quantity" id="starter3" min="0" data-price="80" value="0"></td>
+            </tr>
+            <tr>
+                <td>Chilli Paneer</td>
+                <td>₹150</td>
+                <td><input type="number" class="quantity" id="starter4" min="0" data-price="150" value="0"></td>
+            </tr>
+            <tr>
+                <td>Aloo Tikki</td>
+                <td>₹90</td>
+                <td><input type="number" class="quantity" id="starter5" min="0" data-price="90" value="0"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Veg List -->
+    <div class="menu-list" id="veg">
+        <h3>Veg</h3>
+        <table>
+            <tr>
+                <td>Paneer Butter Masala</td>
+                <td>₹250</td>
+                <td><input type="number" class="quantity" id="veg1" min="0" data-price="250" value="0"></td>
+            </tr>
+            <tr>
+                <td>Veg Biryani</td>
+                <td>₹180</td>
+                <td><input type="number" class="quantity" id="veg2" min="0" data-price="180" value="0"></td>
+            </tr>
+            <tr>
+                <td>Dal Makhani</td>
+                <td>₹200</td>
+                <td><input type="number" class="quantity" id="veg3" min="0" data-price="200" value="0"></td>
+            </tr>
+            <tr>
+                <td>Aloo Gobi</td>
+                <td>₹150</td>
+                <td><input type="number" class="quantity" id="veg4" min="0" data-price="150" value="0"></td>
+            </tr>
+            <tr>
+                <td>Mixed Veg Curry</td>
+                <td>₹220</td>
+                <td><input type="number" class="quantity" id="veg5" min="0" data-price="220" value="0"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Non-Veg List -->
+    <div class="menu-list" id="non-veg">
+        <h3>Non-Veg</h3>
+        <table>
+            <tr>
+                <td>Chicken Curry</td>
+                <td>₹300</td>
+                <td><input type="number" class="quantity" id="nonveg1" min="0" data-price="300" value="0"></td>
+            </tr>
+            <tr>
+                <td>Mutton Biryani</td>
+                <td>₹350</td>
+                <td><input type="number" class="quantity" id="nonveg2" min="0" data-price="350" value="0"></td>
+            </tr>
+            <tr>
+                <td>Fish Fry</td>
+                <td>₹270</td>
+                <td><input type="number" class="quantity" id="nonveg3" min="0" data-price="270" value="0"></td>
+            </tr>
+            <tr>
+                <td>Egg Curry</td>
+                <td>₹180</td>
+                <td><input type="number" class="quantity" id="nonveg4" min="0" data-price="180" value="0"></td>
+            </tr>
+            <tr>
+                <td>Chicken Kebab</td>
+                <td>₹320</td>
+                <td><input type="number" class="quantity" id="nonveg5" min="0" data-price="320" value="0"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Dessert List -->
+    <div class="menu-list" id="desserts">
+        <h3>Desserts</h3>
+        <table>
+            <tr>
+                <td>Ice Cream</td>
+                <td>₹100</td>
+                <td><input type="number" class="quantity" id="dessert1" min="0" data-price="100" value="0"></td>
+            </tr>
+            <tr>
+                <td>Gulab Jamun</td>
+                <td>₹90</td>
+                <td><input type="number" class="quantity" id="dessert2" min="0" data-price="90" value="0"></td>
+            </tr>
+            <tr>
+                <td>Brownie</td>
+                <td>₹150</td>
+                <td><input type="number" class="quantity" id="dessert3" min="0" data-price="150" value="0"></td>
+            </tr>
+            <tr>
+                <td>Rasmalai</td>
+                <td>₹120</td>
+                <td><input type="number" class="quantity" id="dessert4" min="0" data-price="120" value="0"></td>
+            </tr>
+            <tr>
+                <td>Cheesecake</td>
+                <td>₹200</td>
+                <td><input type="number" class="quantity" id="dessert5" min="0" data-price="200" value="0"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Generate Bill Button -->
+    <button onclick="generateBill()">Generate Bill</button>
+
+    <!-- Bill Section -->
+    <div class="bill-section" id="bill">
+        <h2 style="text-align: center;">Sunny Ristorante</h2>
+        <p style="text-align: center;">123 Foodie Street, Culinary City</p>
+        <p style="text-align: center;">Phone: (123) 456-7890</p>
+        <p id="bill-date-time" style="text-align: center;"></p>
+        <table id="bill-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price (₹)</th>
+                    <th>Total (₹)</th>
+                </tr>
+            </thead>
+            <tbody id="bill-items"></tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><strong>Subtotal</strong></td>
+                    <td id="subtotal-amount">₹0</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><strong>Tax (5%)</strong></td>
+                    <td id="tax-amount">₹0</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><strong>Total</strong></td>
+                    <td id="total-amount">₹0</td>
+                </tr>
+            </tfoot>
+        </table>
+        <p id="greetings" style="text-align: center; font-weight: bold;"></p>
+    </div>
+
+    <form action="mail_bill.php" method="POST">
+    <div class="customer-info">
+        <label for="customer-name">Name:</label>
+        <input type="text" id="customer-name" placeholder="Enter your name" name="custname"> <br>
+        <label for="customer-email">Email:</label>
+        <input type="email" id="customer-email" placeholder="Enter your email" name="email">
+    </div>
+
+    <!-- Hidden inputs for bill details -->
+    <input type="hidden" id="hidden-items" name="items">
+    <input type="hidden" id="hidden-subtotal" name="subtotal">
+    <input type="hidden" id="hidden-tax" name="tax">
+    <input type="hidden" id="hidden-total" name="total">
+
+    <!-- Confirmation Bill -->
+    <button type="submit">Print Bill</button>
+    </form>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+ 
