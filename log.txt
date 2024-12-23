@@ -1,0 +1,97 @@
+Array
+(
+    [custname] => Vijay
+    [email] => sandeephamba@gmail.com
+    [items] => Soup - Qty: 1, Price: ₹100, Total: ₹100
+Chilli Paneer - Qty: 1, Price: ₹150, Total: ₹150
+Veg Biryani - Qty: 2, Price: ₹180, Total: ₹360
+Aloo Gobi - Qty: 1, Price: ₹150, Total: ₹150
+Fish Fry - Qty: 1, Price: ₹270, Total: ₹270
+Chicken Kebab - Qty: 1, Price: ₹320, Total: ₹320
+Rasmalai - Qty: 2, Price: ₹120, Total: ₹240
+
+    [subtotal] => 1590.00
+    [tax] => 79.50
+    [total] => 1669.50
+)
+Array
+(
+    [custname] => Kaif Baig
+    [email] => sandeephemba143@gmail.com
+    [items] => Soup - Qty: 1, Price: ₹100, Total: ₹100
+Chilli Paneer - Qty: 1, Price: ₹150, Total: ₹150
+Veg Biryani - Qty: 2, Price: ₹180, Total: ₹360
+Aloo Gobi - Qty: 1, Price: ₹150, Total: ₹150
+Fish Fry - Qty: 1, Price: ₹270, Total: ₹270
+Chicken Kebab - Qty: 1, Price: ₹320, Total: ₹320
+Rasmalai - Qty: 2, Price: ₹120, Total: ₹240
+
+    [subtotal] => 1590.00
+    [tax] => 79.50
+    [total] => 1669.50
+)
+Array
+(
+    [custname] => Manjuuu
+    [email] => sandeephamba@gmail.com
+    [items] => Spring Rolls - Qty: 1, Price: ₹120, Total: ₹120
+Soup - Qty: 2, Price: ₹100, Total: ₹200
+Paneer Butter Masala - Qty: 2, Price: ₹250, Total: ₹500
+Mixed Veg Curry - Qty: 1, Price: ₹220, Total: ₹220
+Fish Fry - Qty: 2, Price: ₹270, Total: ₹540
+Chicken Kebab - Qty: 1, Price: ₹320, Total: ₹320
+Ice Cream - Qty: 2, Price: ₹100, Total: ₹200
+Brownie - Qty: 2, Price: ₹150, Total: ₹300
+
+    [subtotal] => 2400.00
+    [tax] => 120.00
+    [total] => 2520.00
+)
+Array
+(
+    [custname] => Raghuuu
+    [email] => sandeephemba143@gmail.com
+    [items] => Chilli Paneer - Qty: 1, Price: ₹150, Total: ₹150
+Veg Biryani - Qty: 1, Price: ₹180, Total: ₹180
+Aloo Gobi - Qty: 2, Price: ₹150, Total: ₹300
+Fish Fry - Qty: 1, Price: ₹270, Total: ₹270
+Chicken Kebab - Qty: 2, Price: ₹320, Total: ₹640
+Ice Cream - Qty: 2, Price: ₹100, Total: ₹200
+Rasmalai - Qty: 2, Price: ₹120, Total: ₹240
+
+    [subtotal] => 1980.00
+    [tax] => 99.00
+    [total] => 2079.00
+)
+Array
+(
+    [custname] => Sandhya 
+    [email] => sandeephamba@gmail.com
+    [items] => Soup - Qty: 2, Price: ₹100, Total: ₹200
+Dal Makhani - Qty: 2, Price: ₹200, Total: ₹400
+Chicken Curry - Qty: 3, Price: ₹300, Total: ₹900
+Fish Fry - Qty: 2, Price: ₹270, Total: ₹540
+Chicken Kebab - Qty: 1, Price: ₹320, Total: ₹320
+Brownie - Qty: 1, Price: ₹150, Total: ₹150
+Cheesecake - Qty: 1, Price: ₹200, Total: ₹200
+
+    [subtotal] => 2710.00
+    [tax] => 135.50
+    [total] => 2845.50
+)
+Array
+(
+    [custname] => Sandhya 
+    [email] => sandeephamba@gmail.com
+    [items] => Soup - Qty: 2, Price: ₹100, Total: ₹200
+Dal Makhani - Qty: 2, Price: ₹200, Total: ₹400
+Chicken Curry - Qty: 3, Price: ₹300, Total: ₹900
+Fish Fry - Qty: 2, Price: ₹270, Total: ₹540
+Chicken Kebab - Qty: 1, Price: ₹320, Total: ₹320
+Brownie - Qty: 1, Price: ₹150, Total: ₹150
+Cheesecake - Qty: 1, Price: ₹200, Total: ₹200
+
+    [subtotal] => 2710.00
+    [tax] => 135.50
+    [total] => 2845.50
+)
